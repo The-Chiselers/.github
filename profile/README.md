@@ -1,10 +1,5 @@
-## Hi there 👋
+# Hi there 👋 we are The Chiselers
 
-**Here are some ideas to get you started:**
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
+- We are working on creating some hardware cores using [Chisel](https://www.chisel-lang.org/), an HDL (not HLS) written inside of Scala
+   - Chisel is a well tested and was used to create the RISC-V Instruction Set Architecture
+- Additionally we are working on setting up the pipeline to use free and open source tools for everything from design to synthesis
