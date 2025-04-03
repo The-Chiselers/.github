@@ -14,4 +14,4 @@
  
 ## More Information
 
-- See our document on How to use our tools: [Usage.md](profile/Usage)
+- See our document on How to use our tools: [Usage](Usage.md)
