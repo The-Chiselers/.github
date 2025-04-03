@@ -90,6 +90,17 @@ sbt "runMain tech.rocksavage.Main sta --module tech.rocksavage.chiselware.uart.h
 
 The output can be found in: `out/sta`
 
+## Libraries
+
+We've created a few libraries to make Hardware Development easier:
+- [Address Decoder](https://github.com/The-Chiselers/addrdecode)
+- [Register Map](https://github.com/The-Chiselers/registermap)
+
+Both of these modules together allow for simple creation of an APB interface to a module. The Uart repo provides a good example of the capabilities of both of these together.
+- [Address Decoder Example](https://github.com/The-Chiselers/uart/blob/75516efe70c4a93c155d41343f3badf3a01ac8a0/src/main/scala/tech/rocksavage/chiselware/uart/hw/Uart.scala#L353)
+- [Register Map Example](https://github.com/The-Chiselers/uart/blob/75516efe70c4a93c155d41343f3badf3a01ac8a0/src/main/scala/tech/rocksavage/chiselware/uart/hw/Uart.scala#L35)
+
+
 ## Development Harness Modification
 
 Above are many commands that look like:
