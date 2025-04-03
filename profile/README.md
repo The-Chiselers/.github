@@ -3,7 +3,7 @@
 - We are working on creating some hardware cores using [Chisel](https://www.chisel-lang.org/) HDL
 - Additionally we have set up a simple development harness to create professional grade tools at zero cost and built it into one package. We support:
    - Generating Verilog with [Circt](https://circt.llvm.org/) & FIRRTL
-   - Testing With [Treadle](https://github.com/chipsalliance/treadle) and [Verilator]
+   - Testing With [Treadle](https://github.com/chipsalliance/treadle) and [Verilator](https://verilator.org/guide/latest/)
    - Synthesis with [Yosys](https://yosyshq.net/yosys/)
    - Timing Analysis with [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA)
    - Formal Verification with [Chisel Formal](https://woset-workshop.github.io/PDFs/2021/a03.pdf) & [Z3](https://github.com/Z3Prover/z3)
